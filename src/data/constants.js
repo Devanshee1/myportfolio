@@ -1,3 +1,8 @@
+import image1 from '../data/crop.png'
+import image2 from '../data/events.png'
+import image3 from '../data/mediconnect.jpg'
+import image4 from '../data/job.png'
+
 export const Bio = {
     name: "Devanshee Sharma",
     roles: [
@@ -9,7 +14,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Devanshee1",
     resume:
-      "https://drive.google.com/file/d/1k1Mh-FTv4BHsbDQZNv8Qg3s8CtmQJsZB/view?usp=sharing",
+      "https://drive.google.com/file/d/1Vg8i6BB5dbpOEsfTtCnNb9Qo1sfMNYVy/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/devanshee-sharma-0b7802200/",
     twitter: "https://twitter.com/devanshee7763",
     discord: "https://discord.com/devansheesharma_30997",
@@ -180,6 +185,48 @@ export const Bio = {
         category: "web app",
       github: "https://github.com/Visionaries-United/visionaries_unted_SIH_2023",
     },
+
+    {
+      id: 1,
+      title: "Mediconnect - Telemedicine Platform",
+      date: "October 2024 - January 2025",
+      description:
+        "Developing Mediconnect was a pivotal experience that enhanced my understanding of healthcare technology and its application in real-world scenarios. This project focused on creating a user-friendly platform for telemedicine, enabling seamless communication between patients and healthcare providers.",
+      image: image3,
+      category: "web app",
+      github: "https://github.com/Devanshee1/MediConnect-Telemedicine-Platform"
+    },
+    {
+      id: 2,
+      title: "Event Management System",
+      date: "October 2024 - January 2025",
+      description:
+        "The Event Management System project provided valuable insights into event coordination and logistics. It was aimed at developing a comprehensive solution for managing events, including features for scheduling, ticketing, and real-time updates.",
+      image: image2,
+      category: "web app",
+      github: "https://github.com/Devanshee1/Event-Management-System"
+    },
+    {
+      id: 3,
+      title: "Krishi Aarogya - Crop Analysis and Management",
+      date: "August 2024 - October 2024",
+      description:
+        "Working on Krishi Aarogya was an exciting opportunity to contribute to the agricultural sector through technology. This project aimed at creating a robust system for crop analysis and management, leveraging data analytics to assist farmers in optimizing their yield and ensuring sustainability.",
+      image: image1,
+      category: "machine learning",
+      github: "https://github.com/AjayRauniyar/SIH-1638"
+    },
+    {
+      id: 4,
+      title: "Job Seeker Platform",
+      date: "June 2024",
+      description:
+        "The Job Seeker Platform is designed to streamline the job application process by allowing users to create profiles, upload resumes, and apply for jobs. It also includes features like job tracking and personalized recommendations.",
+      image: image4, // use the imported image variable here
+      category: "web app",
+      github: "https://github.com/AjayRauniyar/Jobseeker"
+    }
+    
     
   ];
   
